@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController()
-@RequestMapping(path = "api/v1/students")
+@RequestMapping(path="api/v1/students")
 public class StundetController {
     @Autowired
     private StudentService studentService;
